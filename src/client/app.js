@@ -9,7 +9,7 @@ const clientSocket = new net.Socket();
 clientSocket.connect(Number.parseInt(process.argv[3]), process.argv[2].toString(), null);
 clientSocket.on('close', () => console.log('Connection closed'));
 
-console.log('\033[1m', 'Cadastre um funcionário');
+console.log('\033[1m', 'Enviar objeto para server');
 const questions = [
     {
         type: 'input',
