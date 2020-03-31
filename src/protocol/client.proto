@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Client {
+    string ip = 1;
+    string name = 2;
+    string message = 3;
+}
+
+message Clients {
+  repeated Client client = 1;
+}
