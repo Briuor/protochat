@@ -1,4 +1,4 @@
-// compile to javascript:
+// compilar em javascript:
 // ~/Downloads/protoc/bin/protoc --js_out=import_style=commonjs,binary:. client.proto
 
 const net = require('net');
@@ -7,7 +7,7 @@ const Schema = require('./client_pb.js');
 
 const clientSocket = new net.Socket();
 clientSocket.connect(Number.parseInt(process.argv[3]), process.argv[2].toString(), null);
-clientSocket.on('close', () => console.log('Connection closed'));
+clientSocket.on('close', () => console.log('Conexao encerrada'));
 
 console.log('\033[1m', 'Enviar objeto para server');
 const questions = [

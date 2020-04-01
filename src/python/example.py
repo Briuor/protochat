@@ -2,7 +2,6 @@ import socket
 import sys
 import client_pb2
 
-
 def main():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.bind((str(sys.argv[1]), int(sys.argv[2])))
@@ -21,9 +20,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# f = open("../bin/binary", "r")
-# employeeBinaryData = f.read()
-# employee = employees_pb2.Employee.FromString(employeeBinaryData)
-# print("Lendo Objeto com python")
-# print(employee)
