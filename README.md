@@ -3,7 +3,7 @@
 >Aplicação de chat utilizando google protocol-buffers para transferência de dados entre um servidor em python e clients em javascript(Node).
 
 <p align="center">
-<img style="border-radius: 5px" src="https://raw.githubusercontent.com/Briuor/protochat/screenshot/demoprotochat.gif" />
+<img style="border-radius: 5px" src="https://github.com/Briuor/protochat/blob/master/screenshot/demoprotochat.gif?raw=true" />
 </p>
 
 ## Requisitos
